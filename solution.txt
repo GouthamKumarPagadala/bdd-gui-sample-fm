@@ -1,0 +1,20 @@
+Solution for QA Engineer Technical Test
+
+I have used Maven based Java Project with Cucumber BDD framework
+
+Reason for Maven based Java Project, is to handle all the dependencies and cli(Command Line Interface) execution of the test
+
+Reason for Cucumber BDD framework, is to provide clear information of what actually trying to test and compare the results
+
+Application URL used : https://computer-database.gatling.io/computers
+
+Test Features are available in the below path:
+src\test\resources\features
+
+Decisions performed on the application under test(AUT):
+    Add a new computer (USR_001_AddComputer.feature)
+    Edit existing computer (USR_002_EditExistingComputer.feature)
+    Delete existing computer (USR_003_DeleteExistingComputer.feature)
+
+Note:
+Data provided in the test is not getting reflected in the application, only happy path is automated for now.
